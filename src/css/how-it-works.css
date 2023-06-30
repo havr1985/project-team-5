@@ -9,7 +9,6 @@
 }
 .how-works-title {
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
 
   font-size: 28px;
   font-weight: 500;
@@ -37,7 +36,7 @@
 }
 .how-works-text {
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.56px;
@@ -51,8 +50,19 @@
   margin-right: auto;
 
   border-radius: 40px;
-  background-color: bisque;
-  /* background-color: var(--extra-background-color); */
+  background-color: var(--extra-background-color);
+
+  background-image: url(../img/background-steps-mobile.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-to-by {
+    background-image: url(../img/background-steps-mobile-2x.png);
+  }
 }
 
 .steps-container {
@@ -63,7 +73,7 @@
   margin-bottom: 40px;
 
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+
   font-size: 24px;
   font-family: DM Sans;
   font-style: normal;
@@ -89,6 +99,5 @@
   max-width: 100%;
   height: auto;
 
-  /* placeholder-color */
-  background-color: beige;
+  background-color: transparent;
 }
