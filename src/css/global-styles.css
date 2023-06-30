@@ -9,6 +9,7 @@ body {
 .container {
     padding-left: 20px;
     padding-right: 20px;
+    outline: 1px solid tomato;
 }
 
 @media screen and (min-width:375px) {
