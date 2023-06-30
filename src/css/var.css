@@ -1,0 +1,14 @@
+:root {
+    --primary-text-color: #141414;
+    --primary-white-color: #FFF;
+    --accent-orange-color: #FC8A11;
+    --accent-green-color: #A1C487;
+    --main-background-color: #EAF7E5;
+    --extra-background-color: #FAF3E7;
+    --btn-background-color: #F9F7F4;
+    --icons-green-color: #77AC63;
+    --text-grey-color: #C1BDBD;
+    --extra-white-color: #F3F3F3;
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}

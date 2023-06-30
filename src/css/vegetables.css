@@ -1,0 +1,154 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.vegetables{
+  padding-bottom: 80px;
+}
+.veg-title {
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.veg-descr {
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  margin-bottom: 40px;
+}
+
+.veg-item-title {
+  color: #141414;
+  font-size: 24px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  padding-top: 40px;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+.veg-item-descr {
+  color: #141414;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.veg-item-price {
+  color: #141414;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+.veg-item-wrapper {
+  height: 443px;
+  width: 100%;
+  background-color: #eaf7e5;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+.veg-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.veg-img {
+  padding-left: 18px;
+  margin-bottom: 22px;
+  width: 299px;
+  height: 249px;
+  flex-shrink: 0;
+}
+.veg-item-price {
+  padding-left: 20px;
+}
+.hide-vgtb-item {
+  display: none;
+}
+.vegetable-btn-order {
+    margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px;
+  cursor: pointer;
+  background-color: #fc8a11;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  transform: rotate(-14deg);
+  border: transparent;
+}
+
+.vegetable-btn-order:hover, .vegetable-btn-order:focus{
+  background-color: #A1C487;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .veg-title {
+    color: #141414;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 28px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: -1.12px;
+text-transform: uppercase;
+  }
+.veg-descr{
+color: #141414;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 18px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.72px;
+max-width: 562px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+.veg-item-wrapper{
+  height: 465px;
+}
+
+}
