@@ -54,7 +54,7 @@
 
   background-image: url(../img/background-steps-mobile.png);
   background-size: cover;
-  background-position: top;
+  background-position: top left;
   background-repeat: no-repeat;
 }
 @media (min-device-pixel-ratio: 2),
@@ -63,6 +63,38 @@
   .how-to-by {
     background-image: url(../img/background-steps-mobile-2x.png);
   }
+}
+
+.lists-container {
+  position: relative;
+}
+
+.number-list {
+  position: absolute;
+  top: 8px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.number-item {
+  position: relative;
+
+  width: 40px;
+  height: 38px;
+  background-color: var(--accent-green-color);
+  border-radius: 50%;
+}
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--primary-text-color);
+  font-size: 18px;
+  letter-spacing: -0.72px;
 }
 
 .steps-container {
@@ -92,6 +124,8 @@
   margin-bottom: 20px;
 }
 .steps-item {
+  margin-left: 14px;
+  max-width: 176px;
 }
 .how-to-by-pic {
   margin-left: auto;
