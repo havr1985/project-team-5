@@ -1,12 +1,14 @@
 .footer {
   display: flex;
   flex-direction: column;
-  background: #eaf7e5;
+  background: var(--main-background-color);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .image-broc {
   width: 335px;
-  height: 172px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -31,6 +33,15 @@
   margin-bottom: 40px;
 }
 
+/* .logo:hover {
+  color: var(--accent-orange-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+.logo-icon {
+  margin-right: 8px;
+}
+
 .important-links-sec {
   margin-bottom: 48px;
 }
@@ -52,25 +63,78 @@
   letter-spacing: -0.56px;
 }
 
+.important-link:hover {
+  color: var(--accent-orange-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.important-link:focus {
+  color: var(--accent-orange-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .soc-links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 36px;
   margin-bottom: 48px;
+}
+
+.soc-icon-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #141414;
+  display: flex;
+  padding: 8px;
+}
+
+.soc-icon-link:hover {
+  color: var(--accent-orange-color);
+  border-color: var(--accent-orange-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-icon-link:focus {
+  color: var(--accent-orange-color);
+  border-color: var(--accent-orange-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-icon {
+  fill: currentColor;
+  opacity: 0.800000011920929;
 }
 
 /* .soc-icon {
 } */
 
-.address {
-}
+/* .address {
+} */
 
 .address-list {
   max-width: 143px;
   gap: 20px;
-  /* display: flex; */
-  align-content: center;
+  margin: 0 auto;
 }
 
-/* .address-item {
-} */
+.address-item {
+  display: flex;
+  justify-content: center;
+}
+
+.address-link-tel:hover {
+  color: var(--accent-orange-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-link-tel:focus {
+  color: var(--accent-orange-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .address-link-tel {
   color: #141414;
@@ -83,6 +147,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
 .address-link {
   color: #141414;
   text-align: center;
