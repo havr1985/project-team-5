@@ -1,19 +1,54 @@
 <section class="hero-sec container">
     <div class="hero-container">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <h1 class="hero-title">organic vegetables to your diet today!</h1>
+        <ul class="reviews-group">
+            <li class="review"></li>
+            <li class="review"></li>
+            <li class="review"></li>
+            <li class="review"></li>
+        </ul>
+            <h1 class="hero-title">organic <span class="veg-title-hero">vegetables</span> to your diet today!</h1>
             <p class="hero-text">
                 Our expertly curated vegetable baskets are made with the freshest,
                 highest quality vegetables available. 
                 Fresh Harvest Box has got you covered. 
                 Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.  
             </p>
-            <button type="button">Shop now</button>
-            <img src="" alt="Girl-with-vegetables">
-        </ul>
+            <button type="button" class="buy-button">Shop now</button>
+            <picture class="hero-img">
+                <source
+                  srcset="
+                    ./img/hero-desktop.png 1x,
+                    ./img/hero-desktop-2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./img/hero-tablet.png    1x,
+                    ./img/hero-tablet-2x.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/hero-mobile.png    1x,
+                    ./img/hero-mobile-2x.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="hero-img"
+                  src="./img/hero-mobile.png"
+                  alt="Girl-with-vegetables"
+                  width="278"
+                  height="228"
+                />
+              </picture>
+              <ul class="products-hero">
+                <li class="product-hero">#organic</li>
+                <li class="product-hero">#products</li>
+                <li class="product-hero">#basket</li>
+                <li class="product-hero">#vegetables</li>
+              </ul>
     </div>
 </section>
