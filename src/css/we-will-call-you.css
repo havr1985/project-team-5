@@ -44,7 +44,7 @@
   border: 1px solid var(--primary-text-color);
   opacity: 0.30000001192092896;
   padding-left: 24px;
-  padding-right: auto;
+  padding-right: 105px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -78,12 +78,14 @@
 
 .callback-picture {
   padding-top: 31px;
-  max-width: 335px;
+  width: 335px;
   border-radius: 40px;
   background-color: var(--extra-background-color);
   background-image: url(../img/background-call-you-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -91,5 +93,75 @@
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .callback-picture {
     background-image: url(../img/background-call-you-mobile-2x.png);
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .callback-title {
+    font-size: 20px;
+  }
+  .callback-picture {
+    width: 260px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .we-will-call-you {
+    padding-bottom: 173px;
+  }
+
+  .callback-container {
+    padding-bottom: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .callback-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .callback-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .callback-form {
+    padding-left: 84px;
+    padding-right: 89px;
+  }
+
+  .callback-input {
+    min-width: 350px;
+  }
+
+  .callback-button {
+    right: 90px;
+  }
+
+  .callback-picture {
+    padding-top: 17px;
+    width: 704px;
+    height: 463px;
+    background-image: url(../img/background-call-you-tablet.png);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .callback-picture {
+      background-image: url(../img/background-call-you-tablet-2x.png);
+    }
   }
 }
