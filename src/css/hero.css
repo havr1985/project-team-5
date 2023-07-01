@@ -15,12 +15,14 @@
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
-  line-height: 44px;
+  line-height: 1.1;
   letter-spacing: -1.6px;
 
   margin-bottom: 14px;
 }
 .veg-title-hero {
+  font-style: oblique 14deg;
+  color: #EAF7E5;
 }
 .hero-text {
   color: #fff;
@@ -30,7 +32,7 @@
   font-size: 14px;
   font-family: 'DM Sans';
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.285;
   letter-spacing: -0.56px;
 
   margin-bottom: 20px;
@@ -49,7 +51,7 @@
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.142;
   letter-spacing: -0.56px;
   text-transform: uppercase;
   border: 1px solid transparent;
@@ -67,19 +69,35 @@
   max-width: 100%;
   height: auto;
 }
+.products-hero-hash {
+  width: 171px;
+  margin-left: auto;
+}
 .products-hero {
   display: flex;
   flex-direction: row;
   gap: 4px;
   border-radius: 1000px;
-  justify-content: flex-end;
   flex-wrap: wrap;
-
 }
 .product-hero {
   display: flex;
   padding: 8px 14px;
   border-radius: 1000px;
-  
-  border: 1px solid #FFF;
+  text-align: center;
+ 
+  border: 1px solid #fff;
+
+  color: #fff;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+.product-hero:first-child {
+  color: #141414;
+  background-color: #F9F7F4;
 }
