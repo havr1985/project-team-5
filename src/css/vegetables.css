@@ -144,6 +144,12 @@ letter-spacing: -0.72px;
 max-width: 562px;
 display: flex;
 justify-content: center;
+margin: 0 auto;
+margin-bottom: 40px;
+}
+.veg-item-wrapper{
+  height: 465px;
+  width;
 }
 
 }
