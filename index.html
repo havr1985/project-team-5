@@ -7,8 +7,8 @@
     <title>Veggie boost</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     
-    <script type="module" crossorigin src="/project-team-5/assets/index-6aa9cc26.js"></script>
-    <link rel="stylesheet" href="/project-team-5/assets/index-ade3a24c.css">
+    <script type="module" crossorigin src="/project-team-5/assets/index-401b4d55.js"></script>
+    <link rel="stylesheet" href="/project-team-5/assets/index-1977668c.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -32,7 +32,28 @@
     <h2 class="how-works-title">
       To order your vegetable basket, simply follow these easy steps
     </h2>
-    <img class="how-works-pic" src="" alt="Broccoli" width="335" height="158" />
+    <picture class="how-works-pic">
+      <source
+        srcset="/project-team-5/assets/steps-broccoli-desktop-b9244d8b.png 1x, /project-team-5/assets/steps-broccoli-desktop-2x-1237df78.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/project-team-5/assets/steps-broccoli-tablet-b437383c.png 1x, /project-team-5/assets/steps-broccoli-tablet-2x-9e3a5a01.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/project-team-5/assets/steps-broccoli-mobile-e9ad5211.png 1x, /project-team-5/assets/steps-broccoli-mobile-2x-fb7b7c7c.png 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="how-works-pic"
+        src="/project-team-5/assets/steps-broccoli-mobile-e9ad5211.png"
+        alt="Broccoli"
+        width="335"
+        height="158"
+      />
+    </picture>
+
     <ul class="how-works-list">
       <li class="how-works-item">
         <p class="how-works-text">
@@ -52,32 +73,62 @@
   <div class="how-to-by">
     <div class="steps-container">
       <h3 class="steps-title">3 Easy Steps for Buying Fresh Vegetables</h3>
-      <ol class="steps-list">
-        <li class="steps-item">
-          <p class="how-works-text">
-            Just choose the vegetable you want to order by clicking on the
-            checkboxes next to it.
-          </p>
-        </li>
-        <li class="steps-item">
-          <p class="how-works-text">
-            Click on the basket and fill out the form.
-          </p>
-        </li>
-        <li class="steps-item">
-          <p class="how-works-text">
-            Sit back and relax! Your fresh vegetables basket will be delivered.
-          </p>
-        </li>
-      </ol>
+      <div class="lists-container">
+        <ol class="steps-list">
+          <li class="steps-item">
+            <p class="how-works-text">
+              Just choose the vegetable you want to order by clicking on the
+              checkboxes next to it.
+            </p>
+          </li>
+          <li class="steps-item">
+            <p class="how-works-text">
+              Click on the basket and fill out the form.
+            </p>
+          </li>
+          <li class="steps-item">
+            <p class="how-works-text">
+              Sit back and relax! Your fresh vegetables basket will be
+              delivered.
+            </p>
+          </li>
+        </ol>
+
+        <ul class="number-list">
+          <li class="number-item">
+            <p class="number">1</p>
+          </li>
+          <li class="number-item">
+            <p class="number">2</p>
+          </li>
+          <li class="number-item">
+            <p class="number">3</p>
+          </li>
+        </ul>
+      </div>
     </div>
-    <img
-      class="how-to-by-pic"
-      src=""
-      alt="Girl with lettuce"
-      width="258"
-      height="319"
-    />
+    <picture class="how-to-by-pic">
+      <source
+        srcset="/project-team-5/assets/steps-girl-desktop-a6f6e76c.png 1x, /project-team-5/assets/steps-girl-desktop-2x-f70ad907.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/project-team-5/assets/steps-girl-tablet-ff65f04f.png 1x, /project-team-5/assets/steps-girl-tablet-2x-ff8937ad.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        alt="Girl with lettuce"
+        srcset="/project-team-5/assets/steps-girl-mobile-b6ed4928.png 1x, /project-team-5/assets/steps-girl-mobile-2x-f28e5610.png 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="how-to-by-pic"
+        src="/project-team-5/assets/steps-girl-mobile-b6ed4928.png"
+        alt="Girl with lettuce"
+        width="258"
+        height="319"
+      />
+    </picture>
   </div>
 </section>
 <p>gdfkjjgx</p>
