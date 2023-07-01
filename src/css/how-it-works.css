@@ -106,10 +106,8 @@
   color: var(--primary-text-color);
 
   font-size: 24px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 1.17;
   letter-spacing: -0.96px;
   text-transform: uppercase;
 }
@@ -167,10 +165,7 @@
     gap: 20px;
   }
 
-  .how-works-item {
-  }
-
-  .how-works-text {
+  .how-works-item > .how-works-text {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.72px;
@@ -182,6 +177,68 @@
 
   .second-item {
     width: 279px;
+  }
+
+  /* tablet part 2 */
+
+  .how-to-by {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 40px;
+
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    border-radius: 80px;
+
+    background-image: url(../img/background-steps-tablet.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-to-by {
+      background-image: url(../img/background-steps-tablet-2x.png);
+    }
+  }
+
+  .number-list {
+    gap: 25px;
+    top: 5px;
+  }
+
+  .number-item {
+    width: 46px;
+    height: 44px;
+  }
+
+  .steps-container {
+    width: 274px;
+  }
+
+  .steps-list {
+    gap: 24px;
+    padding-left: 46px;
+  }
+
+  .steps-title {
+    margin-top: 40px;
+
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .how-to-by-pic {
+    margin: 0;
+
+    align-self: flex-end;
+    width: 350px;
+    height: 446px;
   }
 }
 
@@ -222,5 +279,57 @@
 
   .second-item {
     width: 294px;
+  }
+
+  /* desktop part 2 */
+
+  .how-to-by {
+    gap: 110px;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    background-image: url(../img/background-steps-desktop.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-to-by {
+      background-image: url(../img/background-steps-desktop-2x.png);
+    }
+  }
+
+  .number-list {
+    gap: 20px;
+    top: 0px;
+  }
+
+  .steps-container {
+    width: 512px;
+  }
+
+  .steps-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+  }
+
+  .how-to-by-pic {
+    width: 434px;
+    height: 420px;
+  }
+
+  .steps-list {
+    gap: 28px;
+  }
+  .steps-item {
+    max-width: 289px;
+  }
+
+  .text-with-padding {
+    padding-right: 123px;
   }
 }
