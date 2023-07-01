@@ -1,0 +1,96 @@
+.we-will-call-you {
+  background-color: var(--primary-white-color);
+  padding-bottom: 80px;
+}
+
+.callback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.callback-title {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.callback-text {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  padding-bottom: 40px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.callback-form {
+  position: relative;
+}
+.callback-input {
+  width: 100%;
+  height: 48px;
+  border-radius: 100px;
+  border: 1px solid var(--primary-text-color);
+  opacity: 0.30000001192092896;
+  padding-left: 24px;
+  padding-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.callback-input::placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  color: var(--text-grey-color: );
+}
+
+.callback-button {
+  width: 105px;
+  height: 48px;
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+  border-radius: 100px;
+  border: none;
+  background: var(--accent-orange-color);
+  padding: 15px 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.callback-picture {
+  padding-top: 31px;
+  max-width: 335px;
+  border-radius: 40px;
+  background-color: var(--extra-background-color);
+  background-image: url(../img/background-call-you-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px);
+ {
+  .callback-picture {
+    background-image: url(../img/background-call-you-mobile-2x.png);
+  }
+}
