@@ -4,3 +4,6 @@
 .hero-sec {
     background: #A1C487;
 }
+.hero-text {
+    text-transform: uppercase;
+}
