@@ -3,7 +3,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.vegetables{
+  padding-bottom: 80px;
+}
 .veg-title {
   color: #141414;
   text-align: center;
@@ -96,6 +98,7 @@ img {
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 80px;
   cursor: pointer;
   background-color: #fc8a11;
@@ -109,4 +112,24 @@ img {
   text-transform: uppercase;
   transform: rotate(-14deg);
   border: transparent;
+}
+
+.vegetable-btn-order:hover, .vegetable-btn-order:focus{
+  background-color: #A1C487;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .veg-title {
+    color: #141414;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 28px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: -1.12px;
+text-transform: uppercase;
+  }
+  .veg-descr
 }
