@@ -53,7 +53,7 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.56px;
-  color: var(--text-grey-color: );
+  color: var(--text-grey-color);
 }
 
 .callback-button {
@@ -88,8 +88,7 @@
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px);
- {
+  screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .callback-picture {
     background-image: url(../img/background-call-you-mobile-2x.png);
   }
