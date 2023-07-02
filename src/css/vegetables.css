@@ -251,6 +251,7 @@ img {
   .veg-item-list {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
     margin-bottom: 40px;
   }
   .hide-vgtb-item {
