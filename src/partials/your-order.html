@@ -1,30 +1,157 @@
 <!-- Modal -->
 
-<div class="backdrop">
+<div class="backdrop is-hidden">
   <div class="modal">
     <button class="close-btn-modal" type="button">
-      <svg height="16" width="16" class="icon-close-modal">
-        <use href="../img/sprite.svg#icon-close"></use>
+      <svg height="24" width="24" class="icon-close-modal">
+        <use href="./img/sprite.svg#icon-close"></use>
       </svg>
     </button>
-    <!-- <p class="title-modal">Your Order</p> -->
-    <!-- <form class="modal-form">
+    <p class="title-modal">Your Order</p>
+    <form class="modal-form">
       <div class="modal-check">
-        <input
-          type="checkbox"
-          id="user-choice"
-          name="user-choice"
-          value="true"
-          class="input-check visually-hidden"
-        />
-        <label class="label-check" for="user-choice">
-          <span class="check-icon">
-            <svg>
-              <use></use>
-            </svg> </span
-          >Cabbage Basket
-        </label>
+        <div class="modal-container">
+          <input
+            type="checkbox"
+            id="user-choice"
+            name="user-choice"
+            value="true"
+            class="input-check visually-hidden"
+          />
+          <label class="label-check" for="user-choice">
+            <span class="check-box">
+              <svg height="10" width="8" class="check-icon">
+                <use href="./img/sprite.svg"></use>
+              </svg>
+            </span>
+          </label>
+
+          <ul class="modal-list">
+            <div class="modal-wrap">
+              <li class="modal-item">
+                <h3 class="modal-subtitle">Cabbage Basket</h3>
+              </li>
+              <li class="modal-item">
+                <p class="modal-text">Plant</p>
+              </li>
+            </div>
+            <li class="modal-item">
+              <img src="./img/modal-cabbage-desktop.png" alt="cabbage" />
+            </li>
+          </ul>
+        </div>
+        <div class="modal-container">
+          <input
+            type="checkbox"
+            id="user-choice"
+            name="user-choice"
+            value="true"
+            class="input-check visually-hidden"
+          />
+          <label class="label-check" for="user-choice">
+            <span class="check-icon">
+              <svg>
+                <use></use>
+              </svg>
+            </span>
+          </label>
+          <ul>
+            <div class="modal-wrap">
+              <li class="modal-item">
+                <h3 class="modal-subtitle">Cabbage Basket</h3>
+              </li>
+              <li class="modal-item">
+                <p class="modal-text">Plant</p>
+              </li>
+            </div>
+            <li class="modal-item">
+              <img src="./img/modal-tomato-desktop.png" alt="tomato" />
+            </li>
+          </ul>
+        </div>
+        <div class="modal-container">
+          <input
+            type="checkbox"
+            id="user-choice"
+            name="user-choice"
+            value="true"
+            class="input-check visually-hidden"
+          />
+          <label class="label-check" for="user-choice">
+            <span class="check-icon">
+              <svg>
+                <use></use>
+              </svg>
+            </span>
+          </label>
+          <ul>
+            <div class="modal-wrap">
+              <li class="modal-item">
+                <h3 class="modal-subtitle">Cabbage Basket</h3>
+              </li>
+              <li class="modal-item">
+                <p class="modal-text">Plant</p>
+              </li>
+            </div>
+            <li class="modal-item">
+              <img src="./img/modal-vegetables-desktop.png" alt="vegetables" />
+            </li>
+          </ul>
+        </div>
       </div>
-    </form> -->
+      <div class="modal-field">
+        <label class="modal-label form-label"></label>
+
+        <div class="input-wrap">
+          <input
+            type="text"
+            name="user-name"
+            placeholder="Enter full name..."
+            class="modal-input"
+          />
+        </div>
+      </div>
+      <div class="modal-field">
+        <label class="modal-label form-label"></label>
+
+        <div class="input-wrap">
+          <input
+            type="text"
+            name="user-email"
+            placeholder="Enter email..."
+            class="modal-input"
+          />
+        </div>
+      </div>
+      <div class="modal-field">
+        <label class="modal-label form-label"></label>
+
+        <div class="input-wrap">
+          <input
+            type="text"
+            name="user-card"
+            placeholder="Enter card.."
+            class="modal-input"
+          />
+        </div>
+      </div>
+      <div class="textarea-wrap">
+        <label class="modal-label form-label"></label>
+
+        <div class="input-wrap">
+          <textarea
+            type="text"
+            name="user-comment"
+            placeholder="Enter comments..."
+            class="modal-area"
+          >
+          </textarea>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn-modal">Submit</button>
+    </form>
+    <div class="img-box-modal">
+      <img class="img-modal" src="./img/modal-girl-desktop.png" alt="girl" />
+    </div>
   </div>
 </div>

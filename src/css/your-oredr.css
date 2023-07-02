@@ -29,23 +29,22 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 40px 20px 0 40px;
-  transform: translate(-50%, -50%);
-  width: 891px;
-  min-height: 911px;
+  padding: 20px;
+  transform: translate(-50%, -50%) scaleY(1);
+  width: calc(100% - 10px);
+  min-height: 903px;
   border-radius: 20px;
   background-color: #fff;
 }
 
 .close-btn-modal {
   position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 24px;
-  right: 24px;
+  width: 28px;
+  height: 28px;
+  top: 28px;
+  right: 28px;
   background-color: transparent;
   border: none;
-  border-radius: 50%;
 
   display: flex;
   align-items: center;
@@ -55,8 +54,20 @@
 
 .title-modal {
   font-size: 40px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -1.6px;
+  text-transform: uppercase;
+}
+
+.icon-close-modal {
+  stroke: black;
+}
+
+.check-icon {
+  stroke: black;
+}
+
+.img-box-modal {
+  display: none;
 }
