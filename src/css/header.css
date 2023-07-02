@@ -1,0 +1,113 @@
+.heder-container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-heder {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.site-nav {
+    display: none;
+}
+
+.icon-logo {
+    fill: var(--icons-green-color);
+    margin-right: 8px;
+}
+
+.logo-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.mob-menu-open {
+    border: none;
+    background-color: transparent;
+
+    padding: 0;
+    fill: var(--icons-green-color);
+    transition: var(--transition-dur-and-func);
+    line-height: 0;
+}
+
+.modal-menu,
+.modal-btn {
+    display: none;
+}
+
+.header-link.active {
+    color: var(--icons-green-color);
+}
+
+/* ---------------min-width:768px----------------- */
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .site-nav {
+        display: flex;
+        gap: 14px;
+        margin-right: 86px;
+    }
+
+    .header-item {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.56px;
+        color: var(--primary-text-color);
+    }
+
+    .mob-menu-open {
+        display: none;
+    }
+
+    .modal-btn {
+        display: flex;
+        padding: 15px 0;
+        border: none;
+        background-color: var(--primary-white-color);
+    }
+
+    .modal-menu {
+        display: flex;
+        stroke: var(--primary-text-color);
+        fill: var(--primary-white-color);
+    }
+
+    .header-link:is(:hover, :focus) {
+        color: var(--icons-green-color);
+    }
+}
+
+/* --------------min-width:1280px---------------- */
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+
+    .site-nav {
+        gap: 20px;
+        margin-right: 308px;
+    }
+
+    .modal-btn {
+        padding: 15px 0;
+    }
+
+    .modal-menu {
+        width: 24px;
+        height: 24px;
+    }
+}
