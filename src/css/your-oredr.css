@@ -31,7 +31,7 @@
   left: 50%;
   padding: 20px;
   transform: translate(-50%, -50%) scaleY(1);
-  width: calc(100% - 10px);
+  width: 335px;
   min-height: 903px;
   border-radius: 20px;
   background-color: #fff;
@@ -39,10 +39,10 @@
 
 .close-btn-modal {
   position: absolute;
-  width: 28px;
-  height: 28px;
-  top: 28px;
-  right: 28px;
+  width: 24px;
+  height: 24px;
+  top: 24px;
+  right: 24px;
   background-color: transparent;
   border: none;
 
@@ -53,18 +53,14 @@
 }
 
 .title-modal {
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1;
   letter-spacing: -1.6px;
   text-transform: uppercase;
 }
 
 .icon-close-modal {
-  stroke: black;
-}
-
-.check-icon {
   stroke: black;
 }
 
