@@ -9,7 +9,6 @@
 }
 .how-works-title {
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
 
   font-size: 28px;
   font-weight: 500;
@@ -24,9 +23,8 @@
   height: auto;
 
   border-radius: 100px;
-  /* placeholder-color */
-  background-color: green;
 }
+
 .how-works-list {
   display: flex;
   flex-direction: column;
@@ -37,7 +35,7 @@
 }
 .how-works-text {
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.56px;
@@ -51,8 +49,51 @@
   margin-right: auto;
 
   border-radius: 40px;
-  background-color: bisque;
-  /* background-color: var(--extra-background-color); */
+  background-color: var(--extra-background-color);
+
+  background-image: url(../img/background-steps-mobile.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-to-by {
+    background-image: url(../img/background-steps-mobile-2x.png);
+  }
+}
+
+.lists-container {
+  position: relative;
+}
+
+.number-list {
+  position: absolute;
+  top: 8px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.number-item {
+  position: relative;
+
+  width: 40px;
+  height: 38px;
+  background-color: var(--accent-green-color);
+  border-radius: 50%;
+}
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--primary-text-color);
+  font-size: 18px;
+  letter-spacing: -0.72px;
 }
 
 .steps-container {
@@ -63,12 +104,10 @@
   margin-bottom: 40px;
 
   color: var(--primary-text-color);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+
   font-size: 24px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 1.17;
   letter-spacing: -0.96px;
   text-transform: uppercase;
 }
@@ -82,6 +121,8 @@
   margin-bottom: 20px;
 }
 .steps-item {
+  margin-left: 14px;
+  max-width: 176px;
 }
 .how-to-by-pic {
   margin-left: auto;
@@ -89,6 +130,206 @@
   max-width: 100%;
   height: auto;
 
-  /* placeholder-color */
-  background-color: beige;
+  background-color: transparent;
+}
+
+/* For tablet */
+
+@media screen and (min-width: 768px) {
+  .how-it-works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .how-works-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 8px;
+  }
+
+  .how-works-title {
+    width: 386px;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+  }
+
+  .how-works-pic {
+    width: 310px;
+    height: 176px;
+  }
+
+  .how-works-list {
+    flex-direction: row;
+    margin-bottom: 100px;
+    gap: 20px;
+  }
+
+  .how-works-item > .how-works-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .first-item {
+    width: 317px;
+  }
+
+  .second-item {
+    width: 279px;
+  }
+
+  /* tablet part 2 */
+
+  .how-to-by {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 40px;
+
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    border-radius: 80px;
+
+    background-image: url(../img/background-steps-tablet.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-to-by {
+      background-image: url(../img/background-steps-tablet-2x.png);
+    }
+  }
+
+  .number-list {
+    gap: 25px;
+    top: 5px;
+  }
+
+  .number-item {
+    width: 46px;
+    height: 44px;
+  }
+
+  .steps-container {
+    width: 274px;
+  }
+
+  .steps-list {
+    gap: 24px;
+    padding-left: 46px;
+  }
+
+  .steps-title {
+    margin-top: 40px;
+
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .how-to-by-pic {
+    margin: 0;
+
+    align-self: flex-end;
+    width: 350px;
+    height: 446px;
+  }
+}
+
+/* For desktop */
+
+@media screen and (min-width: 1280px) {
+  .how-it-works {
+    padding-top: 124px;
+    padding-bottom: 124px;
+  }
+
+  .how-works-container {
+    gap: 40px 192px;
+  }
+
+  .how-works-title {
+    width: 614px;
+
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+  }
+
+  .how-works-pic {
+    width: 410px;
+    height: 170px;
+  }
+
+  .how-works-list {
+    margin-bottom: 124px;
+    gap: 40px;
+  }
+
+  .first-item {
+    width: 353px;
+    padding-right: 1px;
+  }
+
+  .second-item {
+    width: 294px;
+  }
+
+  /* desktop part 2 */
+
+  .how-to-by {
+    gap: 110px;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    background-image: url(../img/background-steps-desktop.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .how-to-by {
+      background-image: url(../img/background-steps-desktop-2x.png);
+    }
+  }
+
+  .number-list {
+    gap: 20px;
+    top: 0px;
+  }
+
+  .steps-container {
+    width: 512px;
+  }
+
+  .steps-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+  }
+
+  .how-to-by-pic {
+    width: 434px;
+    height: 420px;
+  }
+
+  .steps-list {
+    gap: 28px;
+  }
+  .steps-item {
+    max-width: 289px;
+  }
+
+  .text-with-padding {
+    padding-right: 123px;
+  }
 }
