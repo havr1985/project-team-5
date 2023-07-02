@@ -9,12 +9,18 @@
     <li class="veg-item-wrapper">
       <h3 class="veg-item-title">Carrot</h3>
       <p class="veg-item-descr">Plant</p>
-      <img
-        srcset="./img/carrot-mobile.png 1x, ./img/carrot-mobile-2x.png 2x"
-        class="veg-img"
-        src="./img/carrot-mobile.png"
-        alt="vegetables-image"
-      />
+      <picture>
+        <source
+        srcset="./img/carrot-desktop.png 1x, .img/carrot-desktop-2x.png 2x"
+        media="(min-width: 1280px)">
+        <source
+        srcset="./img/carrot-tablet.png 1x, .img/carrot-tablet-2x.png 2x"
+        media="(min-width: 768px)">
+        <source
+        srcset="./img/carrot-mobile.png 1x, .img/carrot-mobile-2x.png 2x"
+        media="(max-width:767px)">
+      <img src="./img/carrot-mobile.png" alt="vegetables-image" class="veg-img">
+      </picture>
       <p class="veg-item-price">100 UAH / kg</p>
     </li>
     <li class="veg-item-wrapper">

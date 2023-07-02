@@ -10,7 +10,6 @@ img {
   color: #141414;
   text-align: center;
   font-size: 24px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
@@ -23,7 +22,6 @@ img {
   color: #141414;
   text-align: center;
   font-size: 14px;
-  font-family: DM Sans;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
@@ -34,8 +32,6 @@ img {
 .veg-item-title {
   color: #141414;
   font-size: 24px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -0.96px;
@@ -46,8 +42,6 @@ img {
 .veg-item-descr {
   color: #141414;
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
@@ -57,8 +51,6 @@ img {
 .veg-item-price {
   color: #141414;
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.56px;
@@ -103,8 +95,6 @@ img {
   color: #fff;
   text-align: center;
   font-size: 14px;
-  font-family: DM Sans;
-  font-style: normal;
   line-height: 18px;
   letter-spacing: -0.56px;
   text-transform: uppercase;
@@ -122,13 +112,11 @@ img {
   margin-right: 4px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .veg-title {
     color: #141414;
     text-align: center;
     font-size: 28px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
     letter-spacing: -1.12px;
@@ -138,8 +126,6 @@ img {
     color: #141414;
     text-align: center;
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.72px;
@@ -152,24 +138,19 @@ img {
 
   .veg-item-title {
     font-size: 28px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -1.12px;
   }
   .veg-item-descr {
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
+    margin-bottom: 0;
   }
   .veg-item-price {
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.72px;
@@ -187,8 +168,6 @@ img {
     width: 114px;
     height: 114px;
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.72px;
@@ -199,7 +178,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 100%;
   }
@@ -207,8 +186,6 @@ img {
     color: #141414;
     text-align: center;
     font-size: 40px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 44px;
     letter-spacing: -1.6px;
@@ -218,8 +195,6 @@ img {
     color: #141414;
     text-align: center;
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.72px;
@@ -231,24 +206,19 @@ img {
   }
   .veg-item-title {
     font-size: 32px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 700;
     line-height: 38px;
     letter-spacing: -1.28px;
   }
   .veg-item-descr {
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
+    margin-bottom: 0;
   }
   .veg-item-price {
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.72px;
@@ -269,8 +239,6 @@ img {
     width: 114px;
     height: 114px;
     font-size: 18px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.72px;
