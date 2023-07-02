@@ -2,6 +2,39 @@
   width: 100%;
   padding-bottom: 20px;
 }
+.reviews-group {
+  padding-top: 48px;
+  margin-bottom: 14px;
+
+  display: flex;
+  position: relative;
+}
+.review:last-child {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #f9f7f4;
+  font-size: 14px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.56px;
+
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  padding-top: 10px;
+}
+.review-2k {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+}
+.review:not(:last-child) {
+  margin-right: -16px;
+}
 .hero-sec {
   background: #a1c487;
 }
@@ -21,8 +54,9 @@
   margin-bottom: 14px;
 }
 .veg-title-hero {
-  font-style: oblique 14deg;
-  color: #EAF7E5;
+  font-family: 'DM Sans';
+  font-style: italic;
+  color: #eaf7e5;
 }
 .hero-text {
   color: #fff;
@@ -49,7 +83,6 @@
 
   font-size: 14px;
   font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: -0.56px;
@@ -85,7 +118,7 @@
   padding: 8px 14px;
   border-radius: 1000px;
   text-align: center;
- 
+
   border: 1px solid #fff;
 
   color: #fff;
@@ -99,5 +132,5 @@
 }
 .product-hero:first-child {
   color: #141414;
-  background-color: #F9F7F4;
+  background-color: #f9f7f4;
 }
