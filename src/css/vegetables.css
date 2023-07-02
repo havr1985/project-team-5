@@ -187,6 +187,7 @@ img {
     width: 14px;
     height: 14px;
   }
+}
 
 @media screen and (min-width: 1280px) {
   .container {
