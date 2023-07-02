@@ -135,7 +135,9 @@ img {
     margin: 0 auto;
     margin-bottom: 40px;
   }
-
+  .veg-img {
+    margin-bottom: 57px;
+  }
   .veg-item-title {
     font-size: 28px;
     font-weight: 700;
@@ -209,6 +211,9 @@ img {
     font-weight: 700;
     line-height: 38px;
     letter-spacing: -1.28px;
+  }
+  .veg-img {
+    margin-bottom: 57px;
   }
   .veg-item-descr {
     font-size: 18px;
