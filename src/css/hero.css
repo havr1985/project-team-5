@@ -195,6 +195,7 @@
 }
 @media screen and (min-width: 1280px) {
   .hero-container {
+    display: flex;
     padding-top: 127px;
     padding-bottom: 32px;
   }
