@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 375px) {
   .modal {
-    min-width: 335px;
+    max-width: 335px;
   }
 }
 
@@ -203,7 +203,7 @@
   line-height: 1.29;
   letter-spacing: -0.56px;
   text-transform: capitalize;
-  transition: backgroud-color var(--transition-dur-and-func);
+  transition: background-color var(--transition-dur-and-func);
 }
 
 .submit-btn-modal:hover,
@@ -217,7 +217,7 @@
 
 @media screen and (min-width: 768px) {
   .modal {
-    width: 704px;
+    max-width: 704px;
     min-height: 853px;
     transform: translate(-50%, -25%) scaleY(1);
     padding: 40px;
@@ -284,7 +284,7 @@
   }
 
   .modal {
-    width: 891px;
+    max-width: 891px;
     min-height: 911px;
     transform: translate(-50%, -30%) scaleY(1);
   }
