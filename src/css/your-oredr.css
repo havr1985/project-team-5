@@ -80,10 +80,6 @@
   stroke: var(--primary-text-color);
 }
 
-.modal-wrap {
-  padding-top: 20px;
-}
-
 .modal-subtitle {
   color: var(--primary-text-color);
   font-size: 18px;
@@ -109,9 +105,9 @@
 .modal-container {
   position: relative;
   background-color: var(--extra-background-color);
-  display: flex;
-  justify-content: space-evenly;
   border-radius: 20px;
+  padding: 20px 30px 8px 20px;
+  height: 119px;
 }
 
 .check-box {
@@ -133,9 +129,18 @@
   fill: var(--accent-green-color);
 }
 
+.input-check1:checked + .label-check1 .check-box {
+  fill: var(--accent-green-color);
+}
+
+.input-check2:checked + .label-check2 .check-box {
+  fill: var(--accent-green-color);
+}
+
 .img-modal {
-  margin-top: 33px;
-  margin-bottom: 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 30px;
 }
 
 .form-box {
@@ -156,10 +161,12 @@
   padding-left: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
+  outline: none;
+  transition: border-color var(--transition-dur-and-func);
 }
 
 .modal-input:focus {
-  border-color: #a1c487;
+  border-color: var(--accent-green-color);
 }
 
 .modal-input::placeholder {
@@ -179,6 +186,12 @@
   padding-left: 24px;
   resize: none;
   background-color: transparent;
+  outline: none;
+  transition: border-color var(--transition-dur-and-func);
+}
+
+.modal-area:focus {
+  border-color: var(--accent-green-color);
 }
 
 .modal-area::placeholder {
@@ -246,10 +259,13 @@
   .modal-container {
     flex-direction: column;
     width: calc((100% - 12px) / 3);
+    height: 250px;
+    padding: 0;
   }
 
   .modal-wrap {
     padding-top: 40px;
+    padding-left: 20px;
   }
 
   .modal-input {
@@ -257,8 +273,7 @@
   }
 
   .img-modal {
-    margin-top: 10px;
-    margin-bottom: 14px;
+    position: static;
     margin-left: 14px;
   }
 
@@ -272,9 +287,7 @@
 
   .img-box-modal {
     display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: static;
   }
 }
 
@@ -295,6 +308,7 @@
 
   .modal-container {
     width: calc((100% - 20px) / 3);
+    height: 308px;
   }
 
   .modal-wrap {
@@ -302,6 +316,7 @@
   }
 
   .img-modal {
-    margin: 0 auto;
+    bottom: 14px;
+    left: 7px;
   }
 }
