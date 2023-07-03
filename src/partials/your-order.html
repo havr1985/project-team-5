@@ -20,25 +20,42 @@
           />
           <label class="label-check" for="user-choice">
             <span class="check-box">
-              <svg height="10" width="8" class="check-icon">
-                <use href="./img/sprite.svg"></use>
+              <svg height="6" width="6" class="check-icon">
+                <use href="./img/sprite.svg#icon-checkbox"></use>
               </svg>
             </span>
           </label>
 
-          <ul class="modal-list">
-            <div class="modal-wrap">
-              <li class="modal-item">
-                <h3 class="modal-subtitle">Cabbage Basket</h3>
-              </li>
-              <li class="modal-item">
-                <p class="modal-text">Plant</p>
-              </li>
-            </div>
-            <li class="modal-item">
-              <img src="./img/modal-cabbage-desktop.png" alt="cabbage" />
-            </li>
-          </ul>
+          <div class="modal-wrap">
+            <h3 class="modal-subtitle">Cabbage Basket</h3>
+
+            <p class="modal-text">Plant</p>
+          </div>
+
+          <picture>
+            <source
+              srcset="
+                ./img/modal-cabbage-desktop.png    1x,
+                ./img/modal-cabbage-desktop-2x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/modal-cabbage-tablet.png    1x,
+                ./img/modal-cabbage-tablet-2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/modal-cabbage-mobile.png    1x,
+                ./img/modal-cabbage-mobile-2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="./img/modal-cabbage-desktop.png" alt="cabbage" />
+          </picture>
         </div>
         <div class="modal-container">
           <input
@@ -49,25 +66,43 @@
             class="input-check visually-hidden"
           />
           <label class="label-check" for="user-choice">
-            <span class="check-icon">
-              <svg height="10" width="8" class="check-icon">
-                <use></use>
+            <span class="check-box">
+              <svg height="6" width="6" class="check-icon">
+                <use href="./img/sprite.svg#icon-checkbox"></use>
               </svg>
             </span>
           </label>
-          <ul>
-            <div class="modal-wrap">
-              <li class="modal-item">
-                <h3 class="modal-subtitle">Cabbage Basket</h3>
-              </li>
-              <li class="modal-item">
-                <p class="modal-text">Plant</p>
-              </li>
-            </div>
-            <li class="modal-item">
-              <img src="./img/modal-tomato-desktop.png" alt="tomato" />
-            </li>
-          </ul>
+
+          <div class="modal-wrap">
+            <h3 class="modal-subtitle">Cabbage Basket</h3>
+
+            <p class="modal-text">Plant</p>
+          </div>
+
+          <picture>
+            <source
+              srcset="
+                ./img/modal-tomato-desktop.png    1x,
+                ./img/modal-tomato-desktop-2x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/modal-tomato-tablet.png    1x,
+                ./img/modal-tomato-tablet-2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/modal-tomato-mobile.png    1x,
+                ./img/modal-tomato-mobile-2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="./img/modal-tomato-desktop.png" alt="tomato" />
+          </picture>
         </div>
         <div class="modal-container">
           <input
@@ -78,80 +113,122 @@
             class="input-check visually-hidden"
           />
           <label class="label-check" for="user-choice">
-            <span class="check-icon">
-              <svg height="10" width="8" class="check-icon">
-                <use></use>
+            <span class="check-box">
+              <svg height="6" width="6" class="check-icon">
+                <use href="./img/sprite.svg#icon-checkbox"></use>
               </svg>
             </span>
           </label>
-          <ul>
-            <div class="modal-wrap">
-              <li class="modal-item">
-                <h3 class="modal-subtitle">Cabbage Basket</h3>
-              </li>
-              <li class="modal-item">
-                <p class="modal-text">Plant</p>
-              </li>
-            </div>
-            <li class="modal-item">
-              <img src="./img/modal-vegetables-desktop.png" alt="vegetables" />
-            </li>
-          </ul>
+
+          <div class="modal-wrap">
+            <h3 class="modal-subtitle">Cabbage Basket</h3>
+
+            <p class="modal-text">Plant</p>
+          </div>
+
+          <picture>
+            <source
+              srcset="
+                ./img/modal-vegetables-desktop.png    1x,
+                ./img/modal-vegetables-desktop-2x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/modal-vegetables-tablet.png    1x,
+                ./img/modal-vegetables-tablet-2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/modal-vegetables-mobile.png    1x,
+                ./img/modal-vegetables-mobile-2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img src="./img/modal-vegetables-desktop.png" alt="vegetables" />
+          </picture>
         </div>
       </div>
-      <div class="modal-field">
-        <label class="modal-label form-label"></label>
+      <div class="form-box">
+        <div class="modal-field">
+          <label class="modal-label"></label>
 
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="user-name"
-            placeholder="Enter full name..."
-            class="modal-input"
-          />
+          <div class="input-wrap">
+            <input
+              type="text"
+              name="user-name"
+              placeholder="Enter full name..."
+              class="modal-input"
+            />
+          </div>
         </div>
-      </div>
-      <div class="modal-field">
-        <label class="modal-label form-label"></label>
+        <div class="modal-field">
+          <label class="modal-label"></label>
 
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="user-email"
-            placeholder="Enter email..."
-            class="modal-input"
-          />
+          <div class="input-wrap">
+            <input
+              type="text"
+              name="user-email"
+              placeholder="Enter email..."
+              class="modal-input"
+            />
+          </div>
         </div>
-      </div>
-      <div class="modal-field">
-        <label class="modal-label form-label"></label>
+        <div class="modal-field">
+          <label class="modal-label"></label>
 
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="user-card"
-            placeholder="Enter card.."
-            class="modal-input"
-          />
+          <div class="input-wrap">
+            <input
+              type="text"
+              name="user-card"
+              placeholder="Enter card.."
+              class="modal-input"
+            />
+          </div>
         </div>
-      </div>
-      <div class="textarea-wrap">
-        <label class="modal-label form-label"></label>
+        <div class="textarea-wrap">
+          <label class="modal-label"></label>
 
-        <div class="input-wrap">
-          <textarea
-            type="text"
-            name="user-comment"
-            placeholder="Enter comments..."
-            class="modal-area"
-          >
-          </textarea>
+          <div class="input-wrap">
+            <textarea
+              type="text"
+              name="user-comment"
+              placeholder="Enter comments..."
+              class="modal-area"
+            >
+            </textarea>
+          </div>
         </div>
       </div>
       <button type="submit" class="submit-btn-modal">Submit</button>
     </form>
     <div class="img-box-modal">
-      <img class="img-modal" src="./img/modal-girl-desktop.png" alt="girl" />
+      <picture>
+        <source
+          srcset="
+            ./img/modal-girl-desktop.png    1x,
+            ./img/modal-girl-desktop-2x.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/modal-girl-tablet.png    1x,
+            ./img/modal-girl-tablet-2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img
+          class="img-modal"
+          src="./img/modal-girl-desktop.png"
+          alt="girl"
+          width="444"
+          height="413"
+        />
+      </picture>
     </div>
   </div>
 </div>
