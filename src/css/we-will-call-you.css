@@ -76,6 +76,12 @@
   position: absolute;
   top: 0;
   right: 0;
+  transition: var(--transition-dur-and-func);
+}
+
+.callback-button:hover,
+.callback-button:focus {
+  background-color: var(--accent-green-color);
 }
 
 .callback-picture {
