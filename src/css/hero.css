@@ -198,6 +198,7 @@
     display: flex;
     padding-top: 127px;
     padding-bottom: 32px;
+    justify-content:space-between;
   }
   .review:last-child {
     width: 70px;
