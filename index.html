@@ -7,8 +7,8 @@
     <title>Veggie boost</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     
-    <script type="module" crossorigin src="/project-team-5/assets/index-e4005c53.js"></script>
-    <link rel="stylesheet" href="/project-team-5/assets/index-1bd60574.css">
+    <script type="module" crossorigin src="/project-team-5/assets/index-2b6fc20b.js"></script>
+    <link rel="stylesheet" href="/project-team-5/assets/index-1a44a987.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -17,13 +17,13 @@
         <nav class="nav-heder">
             <ul class="site-nav">
                 <li class="header-item">
-                    <a class="header-link" href="#howitmorks" active>How It Works</a>
+                    <a class="header-link" href="#how-it-works">How It Works</a>
                 </li>
                 <li class="header-item">
-                    <a class="header-link" href="#vegetables" active>Vegetables</a>
+                    <a class="header-link" href="#vegetables">Vegetables</a>
                 </li>
                 <li class="header-item">
-                    <a class="header-link" href="#contacts" active>Contacts</a>
+                    <a class="header-link" href="#contacts">Contacts</a>
                 </li>
             </ul>
             <svg class="icon-logo" width="16px" height="16px">
@@ -31,20 +31,50 @@
             </svg>
             <a class="logo-link" href="/src/index.html">Veggieboost</a>
         </nav>
-        <button type="button" class="mob-menu-open" data-menu-open>
-            <svg width="24" height="24">
+        <button type="button" class="mob-menu-open js-open-menu">
+            <svg width="24px" height="24px">
                 <use href="../img/sprite.svg#icon-menu-mobile"></use>
             </svg>
         </button>
-        <button type="button" class="modal-btn" data-modal-close>
+        <button type="button" class="modal-btn">
             <svg class="modal-menu" width="20px" height="20px">
                 <use href="../img/sprite.svg#icon-shop-cart"></use>
             </svg>
         </button>
-
     </div>
 
-
+    <div class="mob-menu js-menu-container">
+        <div class="mob-logo-menu">
+            <div class="nav-heder">
+                <svg class="icon-logo" width="16px" height="16px">
+                    <use href="../img/sprite.svg#icon-logo"></use>
+                </svg>
+                <a class="logo-link" href="/src/index.html">Veggieboost</a>
+            </div>
+            <button type="button" class="mob-menu-close js-close-menu">
+                <svg class="icon-close" width="24px" height="24px">
+                    <use href="../img/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-nav">
+            <ul class="mob-list">
+                <li class="mob-item">
+                    <a class="mob-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="mob-item">
+                    <a class="mob-link" href="#vegetables">Vegetables</a>
+                </li>
+                <li class="mob-item">
+                    <a class="mob-link" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+            <button type="button" class="icon-btn">
+                <svg class="icon-shop" width="20px" height="20px">
+                    <use href="../img/sprite.svg#icon-shop-cart"></use>
+                </svg>
+            </button>
+        </div>
     </div>
 </header>
     <main>
