@@ -2,7 +2,6 @@
     height: 50px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .nav-heder {
@@ -48,6 +47,79 @@
     color: var(--icons-green-color);
 }
 
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mob-menu {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--accent-green-color);
+    overflow: scroll;
+    transform: translateX(100%);
+    transition: transform var(--transition-dur-and-func);
+}
+
+.mob-menu.is-open {
+    transform: translateX(0);
+}
+
+.mob-logo-menu {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    background-color: var(--primary-white-color);
+
+}
+
+.mob-menu-close {
+    border: none;
+    background-color: var(--primary-white-color);
+}
+
+.icon-close {
+    stroke: var(--icons-green-color);
+}
+
+.mob-nav {
+    padding-top: 124px;
+}
+
+.mob-list {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    color: var(--primary-white-color);
+    text-align: center;
+}
+
+.mob-item {
+    margin-bottom: 16px;
+}
+
+.icon-btn,
+.icon-shop {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-shop {
+    stroke: var(--primary-white-color);
+    fill: var(--accent-green-color);
+
+}
+
 /* ---------------min-width:768px----------------- */
 @media screen and (min-width:768px) {
     .container {
@@ -69,6 +141,10 @@
         color: var(--primary-text-color);
     }
 
+    .header-link:active {
+        color: var(--icons-green-color);
+    }
+
     .mob-menu-open {
         display: none;
     }
@@ -78,6 +154,11 @@
         padding: 15px 0;
         border: none;
         background-color: var(--primary-white-color);
+    }
+
+    .modal-menu:hover,
+    .modal-btn:active {
+        stroke: var(--icons-green-color);
     }
 
     .modal-menu {
