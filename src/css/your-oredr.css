@@ -24,10 +24,8 @@
   background: rgba(46, 47, 66, 0.4);
   top: 0;
   overflow: auto;
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -30%) scaleY(0);
+  transition: opacity var(--transition-dur-and-func),
+    visibility var(--transition-dur-and-func);
 }
 
 @media screen and (min-width: 375px) {
@@ -47,6 +45,11 @@
   border-radius: 20px;
   background-color: #fff;
   overflow: scroll;
+  transition: transform var(--transition-dur-and-func);
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -30%) scaleY(0);
 }
 
 .close-btn-modal {
