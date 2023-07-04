@@ -203,12 +203,13 @@
     display: flex;
     justify-content: center;
     max-width: 335px;
-    /* margin-bottom: 0; */
+    margin-bottom: 0;
   }
 
   .medias-address-sec {
     display: flex;
     flex-direction: column;
+    margin-right: 16px;
   }
 
   .address {
@@ -245,6 +246,11 @@
     line-height: 24px;
     letter-spacing: -0.36px;
   }
+
+  .soc-links-list {
+    display: flex;
+    justify-content: start;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -274,5 +280,10 @@
     align-items: center;
     width: 240px;
     margin: 0 auto;
+  }
+
+  .soc-links-list {
+    display: flex;
+    justify-content: start;
   }
 }
