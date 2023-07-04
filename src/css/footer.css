@@ -178,10 +178,11 @@
     justify-content: space-between;
   }
 
-  /* .logo-links-footer {
+  .logo-links-footer {
+    max-height: 275px;
     display: flex;
     flex-direction: column;
-  } */
+  }
 
   .image-broc {
     margin-left: 0;
@@ -251,6 +252,15 @@
     justify-content: space-between;
   }
 
+  .image-broc {
+    margin-bottom: 0;
+  }
+
+  .logo {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
   .logo-links-footer {
     display: flex;
     flex-direction: row;
@@ -261,5 +271,7 @@
   .menu-list {
     display: flex;
     align-items: center;
+    width: 240px;
+    margin: 0 auto;
   }
 }
