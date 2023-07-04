@@ -6,8 +6,11 @@ btnToUp.addEventListener('click', () => {
 const btnScroll = document.querySelector('.btn-up');
 window.onscroll = () => {
    if (window.scrollY > 700) {
-      btnScroll.classList.remove('btn-hidden');
+      btnScroll.classList.remove('.btn-hidden');
    } else if (window.scrollY < 700) {
-      btnScroll.classList.add('btn-hidden');
+      btnScroll.classList.add('.btn-hidden');
    }
 }
+
+
+
