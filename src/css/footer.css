@@ -266,6 +266,7 @@
     flex-direction: row;
     /* align-items: ; */
     justify-content: space-between;
+    width: 756px;
   }
 
   .menu-list {
