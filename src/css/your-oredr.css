@@ -35,21 +35,19 @@
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 0 auto;
   padding: 20px;
-  transform: translate(-50%, -45%) scaleY(1);
+  transform: scaleY(1);
   width: calc(100% - 10px);
   min-height: 903px;
   border-radius: 20px;
-  background-color: #fff;
-  overflow: scroll;
+  background-color: var(--primary-white-color);
+  overflow: auto;
   transition: transform var(--transition-dur-and-func);
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -45%) scaleY(0);
+  transform: scaleY(0);
 }
 
 .close-btn-modal {
@@ -218,7 +216,7 @@
   height: 42px;
   border-radius: 100px;
   background-color: var(--accent-orange-color);
-  color: #fff;
+  color: var(--primary-white-color);
   border: none;
   font-size: 14px;
   font-family: inherit;
@@ -243,12 +241,12 @@
   .modal {
     max-width: 704px;
     min-height: 853px;
-    transform: translate(-50%, -50%) scaleY(1);
+    transform: scaleY(1);
     padding: 40px;
   }
 
   .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scaleY(0);
+    transform: scaleY(0);
   }
 
   .check-box {
