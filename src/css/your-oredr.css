@@ -35,7 +35,7 @@
 }
 
 .modal {
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px;
   transform: scaleY(1);
   width: calc(100% - 10px);
