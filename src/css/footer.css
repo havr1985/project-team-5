@@ -245,21 +245,3 @@
     letter-spacing: -0.36px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .container {
-    justify-content: space-between;
-  }
-
-  /* .logo-links-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  } */
-
-  .menu-list {
-    display: flex;
-    align-items: center;
-  }
-}
