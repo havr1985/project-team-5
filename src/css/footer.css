@@ -286,4 +286,10 @@
     display: flex;
     justify-content: start;
   }
+
+  .medias-address-sec {
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+  }
 }
