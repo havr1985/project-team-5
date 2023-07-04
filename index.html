@@ -7,8 +7,8 @@
     <title>Veggie boost</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     
-    <script type="module" crossorigin src="/project-team-5/assets/index-a749c049.js"></script>
-    <link rel="stylesheet" href="/project-team-5/assets/index-6642dcc3.css">
+    <script type="module" crossorigin src="/project-team-5/assets/index-e0931056.js"></script>
+    <link rel="stylesheet" href="/project-team-5/assets/index-67acd0e0.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -666,7 +666,7 @@
     <!-- YOUR ORDER -->
     <!-- Modal -->
 
-<div class="backdrop" data-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="close-btn-modal" data-modal-close type="button">
       <svg height="24" width="24" class="icon-close-modal">
@@ -681,7 +681,7 @@
             type="checkbox"
             id="user-choice"
             name="user-choice"
-            value="true"
+            value="Cabbage"
             class="input-check visually-hidden"
             checked
           />
@@ -724,7 +724,7 @@
             type="checkbox"
             id="user-choice1"
             name="user-choice"
-            value="true"
+            value="Tomato"
             class="input-check1 visually-hidden"
           />
           <label class="label-check1" for="user-choice1">
@@ -764,7 +764,7 @@
             type="checkbox"
             id="user-choice2"
             name="user-choice"
-            value="true"
+            value="Vegetables"
             class="input-check2 visually-hidden"
           />
           <label class="label-check2" for="user-choice2">
@@ -810,6 +810,8 @@
               name="user-name"
               placeholder="Enter full name..."
               class="modal-input"
+              pattern="[a-zA-Z]+ [a-zA-Z]+"
+              required
             />
           </div>
         </div>
@@ -822,6 +824,8 @@
               name="user-email"
               placeholder="Enter email..."
               class="modal-input"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              required
             />
           </div>
         </div>
@@ -834,6 +838,8 @@
               name="user-card"
               placeholder="Enter card.."
               class="modal-input"
+              pattern="\d{4} \d{4} \d{4} \d{4}"
+              required
             />
           </div>
         </div>
@@ -851,19 +857,22 @@
       </div>
       <button type="submit" class="submit-btn-modal">Submit</button>
     </form>
-    <div class="img-box-modal">
-      <picture>
-        <source
-          srcset="/project-team-5/assets/modal-girl-desktop-eb5bf164.png 1x, /project-team-5/assets/modal-girl-desktop-2x-9dc7ba15.png 2x"
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="/project-team-5/assets/modal-girl-tablet-b7e088c8.png 1x, /project-team-5/assets/modal-girl-tablet-2x-00062279.png 2x"
-          media="(min-width: 768px)"
-        />
-        <img class="img-modal" src="/project-team-5/assets/modal-girl-desktop-eb5bf164.png" alt="girl" />
-      </picture>
-    </div>
+
+    <picture>
+      <source
+        srcset="/project-team-5/assets/modal-girl-desktop-eb5bf164.png 1x, /project-team-5/assets/modal-girl-desktop-2x-9dc7ba15.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/project-team-5/assets/modal-girl-tablet-b7e088c8.png 1x, /project-team-5/assets/modal-girl-tablet-2x-00062279.png 2x"
+        media="(min-width: 768px)"
+      />
+      <img
+        class="img-box-modal"
+        src="/project-team-5/assets/modal-girl-desktop-eb5bf164.png"
+        alt="girl"
+      />
+    </picture>
   </div>
 </div>
 
