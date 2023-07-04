@@ -1,0 +1,39 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+  .btn-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 10px;
+    z-index: 99;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-dur-and-func);
+    
+    display: block;
+  }
+
+  .btn-up:active,
+  .btn-up:hover{
+    fill: var(--accent-orange-color);
+  }
+  
+  .btn-hidden {
+    display: none;
+  }
+
+  .scroll-up-btn{
+    fill: var(--icons-green-color);
+    
+  }
+
+  .scroll-up-btn:active,
+  .scroll-up-btn:hover{
+    fill: var(--accent-orange-color);
+  }
+
