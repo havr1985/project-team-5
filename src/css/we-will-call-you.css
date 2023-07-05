@@ -192,13 +192,13 @@
     letter-spacing: -1.92px;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 40px;
     width: 614px;
     text-align: start;
+    margin-bottom: 40px;
   }
 
   .callback-text {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
     padding-left: 0;
     padding-right: 0;
     width: 523px;
