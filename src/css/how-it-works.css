@@ -68,23 +68,16 @@
   position: relative;
 }
 
-.number-list {
-  position: absolute;
-  top: 8px;
-  left: 0;
-
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
 .number-item {
-  position: relative;
+  position: absolute;
+  left: -54px;
 
   width: 40px;
   height: 38px;
   background-color: var(--accent-green-color);
   border-radius: 50%;
 }
+
 .number {
   position: absolute;
   top: 50%;
@@ -121,6 +114,10 @@
   margin-bottom: 20px;
 }
 .steps-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+
   margin-left: 14px;
   max-width: 176px;
 }
@@ -206,12 +203,9 @@
     }
   }
 
-  .number-list {
-    gap: 25px;
-    top: 5px;
-  }
-
   .number-item {
+    left: -60px;
+
     width: 46px;
     height: 44px;
   }
@@ -223,6 +217,8 @@
   .steps-list {
     gap: 24px;
     padding-left: 46px;
+
+    margin-bottom: 0;
   }
 
   .steps-title {
