@@ -1,4 +1,5 @@
-<section class="we-will-call-you container">
+<section class="we-will-call-you ">
+  <div class="container container-flex">
   <div class="callback-container">
     <h2 class="callback-title">
       Fresh Harvest Box has <br />
@@ -27,10 +28,24 @@
     <picture>
       <source
         srcset="
+          ./img/call-you-girl-desktop.webp    1x,
+          ./img/call-you-girl-desktop-2x.webp 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
           ./img/call-you-girl-desktop.png    1x,
           ./img/call-you-girl-desktop-2x.png 2x
         "
         media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/call-you-girl-tablet.webp    1x,
+          ./img/call-you-girl-tablet-2x.webp 2x
+        "
+        media="(min-width: 768px)"
       />
       <source
         srcset="
@@ -41,12 +56,20 @@
       />
       <source
         srcset="
+          ./img/call-you-girl-mobile.webp    1x,
+          ./img/call-you-girl-mobile-2x.webp 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="
           ./img/call-you-girl-mobile.png    1x,
           ./img/call-you-girl-mobile-2x.png 2x
         "
         media="(max-width: 767px)"
       />
-      <img src="./img/call-you-girl-mobile.png" alt="Girl with broccoli" />
+      <img src="./img/call-you-girl-mobile.webp" alt="Girl with broccoli" />
     </picture>
+  </div>
   </div>
 </section>

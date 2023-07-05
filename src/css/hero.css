@@ -1,8 +1,9 @@
-.hero-container {
-  width: 100%;
+.hero-sec {
+  background: #a1c487;
   padding-top: 48px;
   padding-bottom: 20px;
 }
+
 .reviews-group {
   margin-bottom: 14px;
 
@@ -36,9 +37,7 @@
 .review:not(:last-child) {
   margin-right: -16px;
 }
-.hero-sec {
-  background: #a1c487;
-}
+
 .hero-title {
   text-transform: uppercase;
 
@@ -137,7 +136,7 @@
 }
 /* ........................................................................MEDIA...................................... */
 @media screen and (min-width: 768px) {
-  .hero-container {
+  .hero-sec {
     padding-top: 64px;
     padding-bottom: 32px;
   }
@@ -194,13 +193,16 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .hero-container {
-    display: flex;
+  .hero-sec {
     padding-top: 127px;
     padding-bottom: 32px;
-    justify-content:space-between;
-    
   }
+
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
   .review:last-child {
     width: 70px;
     height: 70px;

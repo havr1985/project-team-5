@@ -4,16 +4,22 @@
       <div class="image-logo-sec">
         <picture>
           <source
+            srcset="./img/footer-tablet.webp 1x, ./img/footer-tablet-2x.webp 2x"
+            media="(min-width: 768px)"/>
+            <source
             srcset="./img/footer-tablet.png 1x, ./img/footer-tablet-2x.png 2x"
-            media="(min-width: 768px)"
-          />
+            media="(min-width: 768px)">
+            
           <source
-            srcset="./img/footer-mobile.png 1x, ./img/footer-mobile-2x.png 2x"
+            srcset="./img/footer-mobile.webp 1x, ./img/footer-mobile-2x.webp 2x"
             media="(max-width: 767px)"
           />
+          <source
+          srcset="./img/footer-mobile.png 1x, ./img/footer-mobile-2x.png 2x"
+            media="(max-width: 767px)">
           <img
             class="image-broc"
-            src="./img/footer-mobile.png"
+            src="./img/footer-mobile.webp"
             alt="broccoli"
           />
         </picture>
@@ -28,6 +34,7 @@
       <nav class="menu">
         <ul class="menu-list">
           <li class="menu-item">
+
             <a class="menu-link" href="" rel="noopener nofollow noreferer"
               >How It Works</a
             >
@@ -41,6 +48,8 @@
             <a class="menu-link" href="" rel="noopener nofollow noreferer"
               >Contacts</a
             >
+
+            
           </li>
         </ul>
       </nav>

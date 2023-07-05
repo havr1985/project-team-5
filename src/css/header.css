@@ -8,6 +8,7 @@
     display: flex;
     padding-top: 16px;
     padding-bottom: 16px;
+    align-items: center;
 }
 
 .site-nav {
@@ -45,6 +46,10 @@
 
 .header-link.active {
     color: var(--icons-green-color);
+}
+
+.header-link {
+    transition: var(--transition-dur-and-func);
 }
 
 .is-hidden {
@@ -165,6 +170,7 @@
         display: flex;
         stroke: var(--primary-text-color);
         fill: var(--primary-white-color);
+        transition: var(--transition-dur-and-func);
     }
 
     .header-link:is(:hover, :focus) {

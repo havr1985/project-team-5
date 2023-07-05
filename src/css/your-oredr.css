@@ -79,7 +79,9 @@
 }
 
 .modal-subtitle {
+  display: block;
   color: var(--primary-text-color);
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.72px;
@@ -102,10 +104,12 @@
 
 .modal-container {
   position: relative;
+  display: flex;
   background-color: var(--extra-background-color);
   border-radius: 20px;
   height: 119px;
-  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .check-box {
@@ -141,16 +145,11 @@
 }
 
 .img-modal {
-  margin-top: 33px;
+  position: absolute;
+  top: 33px;
+  right: 30px;
 }
 
-.cabbage {
-  margin-left: 19px;
-}
-
-.tomato {
-  margin-left: 31px;
-}
 
 .form-box {
   display: block;
@@ -238,6 +237,14 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .modal-container{
+    padding-top: 40px;
+    display: block;
+    width: calc((100% - 12px) / 3);
+    height: 250px;
+  }
+
   .modal {
     max-width: 704px;
     min-height: 853px;
@@ -270,11 +277,17 @@
     flex-direction: row;
   }
 
-  .modal-container {
+  /* .label-check {
     flex-direction: column;
-    width: calc((100% - 12px) / 3);
-    height: 250px;
   }
+
+  .label-check1 {
+    flex-direction: column;
+  }
+
+  .label-check2 {
+    flex-direction: column;
+  } */
 
   .modal-wrap {
     padding-top: 40px;
@@ -285,7 +298,8 @@
   }
 
   .img-modal {
-    margin: 10px 14px 14px 14px;
+   top: 94px;
+   right: 14px;
   }
 
   .modal-area {
@@ -320,6 +334,6 @@
   }
 
   .img-modal {
-    margin-left: 7px;
+    right: 7px;
   }
 }
