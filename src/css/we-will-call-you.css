@@ -96,13 +96,13 @@
   justify-content: center;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+/* @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .callback-picture {
     background-image: url(../img/background-call-you-mobile-2x.png);
   }
-}
+} */
 
 @media screen and (max-width: 374px) {
   .callback-title {
@@ -157,21 +157,25 @@
     background-image: url(../img/background-call-you-tablet.png);
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  /* @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .callback-picture {
       background-image: url(../img/background-call-you-tablet-2x.png);
     }
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
   .we-will-call-you {
+    padding-bottom: 124px;
+  }
+
+  .container-flex{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding-bottom: 124px;
+
   }
 
   .callback-container {
@@ -209,11 +213,11 @@
     background-image: url(../img/background-call-you-desktop.png);
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  /* @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
     screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .callback-picture {
       background-image: url(../img/background-call-you-desktop-2x.png);
     }
-  }
+  } */
 }
