@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .callback-title {
@@ -120,7 +120,7 @@
   }
 
   .callback-container {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
     padding-left: 90px;
     padding-right: 90px;
     display: flex;
@@ -180,6 +180,7 @@
   .callback-container {
     padding-top: 98px;
     padding-bottom: 98px;
+    margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
     justify-content: start;
@@ -192,13 +193,13 @@
     letter-spacing: -1.92px;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     width: 614px;
     text-align: start;
   }
 
   .callback-text {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
     padding-left: 0;
     padding-right: 0;
     width: 523px;
