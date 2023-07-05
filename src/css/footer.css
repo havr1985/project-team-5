@@ -87,7 +87,10 @@
   border-radius: 10px;
   border: 1px solid #141414;
   display: flex;
-  padding: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .soc-icon-link:hover {
