@@ -112,6 +112,9 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .vegetables {
+      padding-bottom: 100px;
+    }
   .veg-title {
     color: #141414;
     text-align: center;
@@ -185,6 +188,10 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
+  .vegetables {
+    padding-bottom: 124px;
+  }
+
   .veg-title {
     color: #141414;
     text-align: center;
