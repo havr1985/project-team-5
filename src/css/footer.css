@@ -64,12 +64,12 @@
 }
 
 .menu-link:hover {
-  color: var(--accent-orange-color);
+  color: var(--icons-green-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:focus {
-  color: var(--accent-orange-color);
+  color: var(--icons-green-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -136,12 +136,12 @@
 }
 
 .address-link-tel:hover {
-  color: var(--accent-orange-color);
+  color: var(--icons-green-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link-tel:focus {
-  color: var(--accent-orange-color);
+  color: var(--icons-green-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -169,12 +169,12 @@
 }
 
 .address-link:hover {
-  color: var(--accent-orange-color);
+  color: var(--icons-green-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:focus {
-  color: var(--accent-orange-color);
+  color: var(--icons-green-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
