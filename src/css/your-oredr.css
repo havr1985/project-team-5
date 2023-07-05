@@ -105,6 +105,17 @@
   background-color: var(--extra-background-color);
   border-radius: 20px;
   height: 119px;
+}
+
+.label-check {
+  display: flex;
+}
+
+.label-check1 {
+  display: flex;
+}
+
+.label-check2 {
   display: flex;
 }
 
@@ -271,9 +282,20 @@
   }
 
   .modal-container {
-    flex-direction: column;
     width: calc((100% - 12px) / 3);
     height: 250px;
+  }
+
+  .label-check {
+    flex-direction: column;
+  }
+
+  .label-check1 {
+    flex-direction: column;
+  }
+
+  .label-check2 {
+    flex-direction: column;
   }
 
   .modal-wrap {
