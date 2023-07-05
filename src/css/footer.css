@@ -94,15 +94,19 @@
 }
 
 .soc-icon-link:hover {
-  color: var(--accent-orange-color);
-  border-color: var(--accent-orange-color);
+  /* color: var(--accent-orange-color);
+  border-color: var(--accent-orange-color); */
+  color: var(--icons-green-color);
+  border-color: var(--icons-green-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-icon-link:focus {
-  color: var(--accent-orange-color);
-  border-color: var(--accent-orange-color);
+  /* color: var(--accent-orange-color);
+  border-color: var(--accent-orange-color); */
+  color: var(--icons-green-color);
+  border-color: var(--icons-green-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
