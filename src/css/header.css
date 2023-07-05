@@ -47,6 +47,10 @@
     color: var(--icons-green-color);
 }
 
+.header-link {
+    transition: color var(--transition-dur-and-func);
+}
+
 .is-hidden {
     visibility: hidden;
     opacity: 0;
