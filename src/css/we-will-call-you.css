@@ -19,7 +19,7 @@
   line-height: 1.17;
   letter-spacing: -0.96px;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   padding-left: 6px;
   padding-right: 6px;
 }
@@ -30,7 +30,7 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.56px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -171,11 +171,10 @@
     padding-bottom: 124px;
   }
 
-  .container-flex{
+  .container-flex {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-
   }
 
   .callback-container {
