@@ -36,8 +36,7 @@ img {
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -0.96px;
-  padding-top: 40px;
-  padding-left: 20px;
+  
   margin-bottom: 8px;
 }
 .veg-item-descr {
@@ -46,7 +45,6 @@ img {
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.28px;
-  padding-left: 20px;
   margin-bottom: 40px;
 }
 .veg-item-price {
@@ -62,6 +60,9 @@ img {
   background-color: #eaf7e5;
   flex-shrink: 0;
   border-radius: 12px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .veg-item-list {
   display: flex;
@@ -70,15 +71,10 @@ img {
   margin-bottom: 20px;
 }
 .veg-img {
-  margin: 0 auto;
   margin-bottom: 22px;
   width: 299px;
   height: 249px;
   flex-shrink: 0;
-}
-.veg-item-price {
-  padding-left: 20px;
-  padding-bottom: 20px;
 }
 .hide-vgtb-item {
   display: none;
@@ -144,15 +140,12 @@ img {
     margin-bottom: 32px;
   }
   .veg-item-title {
-    padding-top: 64px;
-    padding-left: 24px;
     font-size: 28px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -1.12px;
   }
   .veg-item-descr {
-    padding-left: 24px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -165,11 +158,12 @@ img {
     line-height: 24px;
     letter-spacing: -0.72px;
     padding-bottom: 24px;
-    padding-left: 24px;
   }
   .veg-item-wrapper {
     height: 465px;
     width: calc((100% - 20px) / 2);
+    padding-top: 64px;
+    padding-left: 24px;
   }
   .veg-item-list {
     flex-direction: row;
@@ -214,8 +208,6 @@ img {
     margin-bottom: 40px;
   }
   .veg-item-title {
-    padding-top: 64px;
-    padding-left: 24px;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -227,7 +219,6 @@ img {
     margin-bottom: 32px;
   }
   .veg-item-descr {
-    padding-left: 24px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -235,8 +226,6 @@ img {
     margin-bottom: 0;
   }
   .veg-item-price {
-    padding-bottom: 24px;
-    padding-left: 24px;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -245,6 +234,8 @@ img {
   .veg-item-wrapper {
     height: 465px;
     width: calc((100% - 48px) / 3);
+    padding-top: 64px;
+    padding-left: 24px;
   }
   .veg-item-list {
     flex-direction: row;
