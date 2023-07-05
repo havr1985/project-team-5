@@ -190,9 +190,7 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 100%;
-  }
+  
   .veg-title {
     color: #141414;
     text-align: center;
